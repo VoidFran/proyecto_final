@@ -1,0 +1,50 @@
+[
+    {
+        "id": 0,
+        "nombre": "Monitor Noblex 24",
+        "marca": "Noblex",
+        "modelo": "MK24X7100",
+        "tipo": "Monitores",
+        "precio": "91.999"
+    },
+    {
+        "id": 1,
+        "nombre": "Auriculares vincha 107BS",
+        "marca": "Noblex",
+        "modelo": "HP107BS",
+        "tipo": "Auriculares",
+        "precio": "8.117"
+    },
+    {
+        "id": 2,
+        "nombre": "Notebook 14.1",
+        "marca": "Noblex",
+        "modelo": "N14X1000",
+        "tipo": "Notebooks",
+        "precio": "194.999"
+    },
+    {
+        "id": 3,
+        "nombre": "Teclado Gamer Nbx",
+        "marca": "NBX",
+        "modelo": "NBX-KB1000M",
+        "tipo": "Teclados",
+        "precio": "17.999"
+    },
+    {
+        "id": 4,
+        "nombre": "Mouse Gamer Nbx",
+        "marca": "NBX",
+        "modelo": "NBX-MS12010",
+        "tipo": "Mouses",
+        "precio": "23.299"
+    },
+    {
+        "id": 5,
+        "nombre": "Aire Acondicionado Inverter Eco Cooling 3550W",
+        "marca": "Noblex",
+        "modelo": "NXIN35HA3BPI",
+        "tipo": "Aires acondicionados",
+        "precio": "467.999"
+    }
+]

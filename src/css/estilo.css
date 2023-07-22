@@ -1,0 +1,142 @@
+body {
+  font-family: fuente;
+  font-size: 16px;
+  color: #eaeaea;
+  text-shadow: #151515 2px 2px;
+  margin: 0;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 16px;
+  color: #e0d59e;
+}
+
+p {
+  color: #eaeaea;
+  margin: 0;
+}
+
+p a:hover {
+  background-color: #ccb95e;
+}
+
+a {
+  text-decoration: none;
+  color: #eaeaea;
+  list-style:none;
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+}
+
+th {
+  position: relative;
+  left: 20px;
+  padding: 4px;
+  font-weight: normal;
+  color: #e0d59e;
+  background-color: #286982;
+  border: 2px solid #7ebdd6;
+  border-radius: 2px;
+}
+
+td {
+  position: relative;
+  left: 20px;
+  padding: 4px;
+  background-color: #286982;
+  border: 2px solid #7ebdd6;
+  border-radius: 2px;
+}
+
+button {
+  font-family: fuente_2;
+  font-size: 16px;
+  text-shadow: #151515 2px 2px;
+  color: #eaeaea;
+  background-color: #5eadcc;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #ccb95e;
+  cursor: pointer;
+}
+
+/* Estilo a los Contenedores */
+.cuadricula {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 500px;
+  grid-template-rows: 60% 80% 20%;
+  grid-template-areas:
+    "nav"
+    "section"
+    "footer";
+  text-align: center;
+}
+
+.nav {
+  grid-area: nav;
+  background-color: #3284a3;
+}
+
+.section {
+  grid-area: section;
+  background-color: #a38e32;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: #325ca3;
+}
+
+.caja_flexible {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 16px;
+}
+
+.contenedor {
+  position: relative;
+  flex-basis: 100px;
+  flex-grow: 1;
+  background-color: #286982;
+  border-bottom: 5px solid #409cbf;
+  border-radius: 10px;
+}
+
+.discord {
+  width: 74px;
+  height: 56px;
+}
+
+/* Las fuentes */
+@font-face {
+  font-family: fuente;
+  src: url("ComicNeue-Regular.ttf");
+}
+
+/* Los Media Query */
+@media (min-width: 500px) {
+  .cuadricula {
+    display: grid;
+    grid-template-columns: 500px;
+    grid-template-rows: 444px;
+    grid-template-areas:
+      "nav section"
+      "nav section"
+      "nav footer";
+  }
+}

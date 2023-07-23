@@ -5,7 +5,7 @@
         "marca": "Noblex",
         "modelo": "MK24X7100",
         "tipo": "Monitores",
-        "precio": "91.999"
+        "precio": "$ 91.999"
     },
     {
         "id": 1,
@@ -13,7 +13,7 @@
         "marca": "Noblex",
         "modelo": "HP107BS",
         "tipo": "Auriculares",
-        "precio": "8.117"
+        "precio": "$ 8.117"
     },
     {
         "id": 2,
@@ -21,7 +21,7 @@
         "marca": "Noblex",
         "modelo": "N14X1000",
         "tipo": "Notebooks",
-        "precio": "194.999"
+        "precio": "$ 194.999"
     },
     {
         "id": 3,
@@ -29,7 +29,7 @@
         "marca": "NBX",
         "modelo": "NBX-KB1000M",
         "tipo": "Teclados",
-        "precio": "17.999"
+        "precio": "$ 17.999"
     },
     {
         "id": 4,
@@ -37,7 +37,7 @@
         "marca": "NBX",
         "modelo": "NBX-MS12010",
         "tipo": "Mouses",
-        "precio": "23.299"
+        "precio": "$ 23.299"
     },
     {
         "id": 5,
@@ -45,6 +45,6 @@
         "marca": "Noblex",
         "modelo": "NXIN35HA3BPI",
         "tipo": "Aires acondicionados",
-        "precio": "467.999"
+        "precio": "$ 467.999"
     }
 ]

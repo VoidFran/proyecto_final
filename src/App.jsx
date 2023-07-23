@@ -2,45 +2,48 @@ import React from "react"
 
 import "./css/estilo.css";
 
-import Menu from "./componentes/menu.jsx";
-import Inicio from "./componentes/inicio.jsx"
-import Venta from "./componentes/venta.jsx"
-import Contacto from "./componentes/contacto.jsx"
-import Sobre_Nosotros from "./componentes/sobre_nosotros.jsx"
+import Menu from "./componentes/menu.js";
+import Inicio from "./componentes/inicio.js"
+import Venta from "./componentes/venta.js"
+import Contacto from "./componentes/contacto.js"
+import SobreNosotros from "./componentes/sobre_nosotros.js"
+import NoEncontrado from "./componentes/no_encontrado.js"
 
-import {Routes, Route, BrowserRouter} from "react-router-dom"
+import {Routes, Route} from "react-router-dom"
 
 
 import discord from './imagenes/discord.png';
 
-const App = () => {
+export default function App() {
   return (
-    <div class="cuadricula">
+    <div class="grid_contenedor">
       <div class="nav">
-        <img src={discord} class="discord" />
+        <div class="grid-item">
+          <div class="contenedor">
+            <img src={discord} class="discord" alt=""/>
 
-        <h1>Misiotrónica</h1>
+            <h1>Misiotrónica</h1>
 
-        <Menu/>
+            <Menu/>
+          </div>
+        </div>
       </div>
 
       <div class="section">
-        <h1> seccion </h1>
-
         <Routes>
-          <Route path="inicio" element={<Inicio/>}/>
+          <Route path="" element={<Inicio/>}/>
           <Route path="venta" element={<Venta/>}/>
+          <Route path="sobre_nosotros" element={<SobreNosotros/>}/>
           <Route path="contacto" element={<Contacto/>}/>
-          <Route path="sobre_nosotros" element={<Sobre_Nosotros/>}/>
+          <Route path="*" element={<NoEncontrado/>}/>
         </Routes>
       </div>
 
-      <div class="footer">
-        <h1>footer</h1>
-        <p>Copyright© 2023 Misiotrónica / Todos los derechos reservados</p>
+      <div class="footer">            
+        <div class="caja_flexible">
+            <p>Copyright© 2023 Misiotrónica / Todos los derechos reservados</p>
+        </div>
       </div>
     </div>
   )
 }
-
-export default App;

@@ -1,3 +1,5 @@
+import React from "react"
+
 export default function Sobre_Nosotros() {
     return (
         <div>
